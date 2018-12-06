@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.n01202172.myapplication.MainActivity">
+
+    <!-- WHERE ID = option1 IS MY VECTOR ASSET IN MY DRAWABLE DIRECTORY -->
+    <item
+        android:title="item"
+        android:id="@+id/option1"
+        android:icon="@drawable/ic_history_black_24dp"
+        app:showAsAction="ifRoom"/>
+
+    <!-- WHERE action_settings IS THE FIRST OPTION IN MY ITEM  -->
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Option1"
+        app:showAsAction="never" />
+
+    <!-- WHERE action_settings2 IS THE SECOND OPTION WITH TWO OTHER CHILD WITH ID subitem1 and subitem2  -->
+    <item
+        android:id="@+id/action_settings2"
+        android:orderInCategory="100"
+        android:title="Option2"
+        app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/subitem1"
+                android:title="SubItem1"
+                app:showAsAction="never"/>
+
+            <item android:id="@+id/subitem2"
+                android:title="SubItem2"
+                app:showAsAction="never"/>
+
+        </menu>
+    </item>
+
+
+</menu>
