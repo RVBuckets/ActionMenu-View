@@ -14,7 +14,7 @@
 **ActionMenuView** is an introduction of a progression of menu alternatives as a View. It gives a few best dimension choices as activity catches while spilling remaining alternatives over as things in an overflow menu. This enables applications to display packs of activities inline with explicit or rehashing content. ActionMenuView belongs to Maven artifact ```com.android.support:appcompat-v7:28.0.0-alpha1.```
 
 
-##**Working**
+## **Working**
 
 It is one the most important element design as it helps users to understand specific functioning of the application. Action menu is the operation which is provoked on invoking any menu item. Every attributes of action whilst any action is provoked for any specific menu is defined in .xml file. Client Framework understands as well as handles the actions of menu based on action attributes. Some other action attributes that Client Framework handles are **action-command,action-type,action-value**. So depending on any of these action attributes are passed,the operation is invoked.
 
@@ -22,7 +22,7 @@ The toolbar bar also known to be **"Action Bar"** is spoken to as of Android 5.0
 
 Before Android 5.0 the area of the toolbar (actionbar) was hard coded to the highest point of the action.Plus, its possible to disable the old theme in toolbar to which default Android theme is already equipped.
 
-##**Usage**
+## **Usage**
 
 Class: ```android.support.v7.widget.ActionMenuView```
 
